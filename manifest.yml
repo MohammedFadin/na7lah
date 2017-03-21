@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: na7lah
+  host: na7lah
+  disk_quota: 1024M
+  services:
+  - na7lah-AdvancedMobileAccess
+  - na7lah-imfpush
+  - na7lah-cloudantNoSQLDB
